@@ -21,7 +21,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
   Map<String, String> _chatResponses = {};
   bool _isOnline = true;
 
-  final String geminiApiKey = 'AIzaSyAlW0IjmJmt0b-pF4gRjkDnDcS304hDY58'; // Replace with your actual key
+  final String geminiApiKey = ''; // Replace with your actual key
 
   @override
   void initState() {
@@ -223,3 +223,4 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     );
   }
 }
+
